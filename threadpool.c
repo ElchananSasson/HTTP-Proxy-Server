@@ -1,5 +1,3 @@
-/// Ex3 - Proxy Server: Elchanan Sasson - 208272625
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
