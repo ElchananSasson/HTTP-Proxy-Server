@@ -1,11 +1,10 @@
-==ID==
-208272625
-
-==Name & ID==
-Elchanan Sasson - 208272625
-
-==Exercise name==
-proxyServer
+==description==
+In this programming assignment you will write an HTTP proxy server that implements a limited subset of the entire HTTP specification.
+The proxy server gets an HTTP request from the client and performs some predefined checks on it. If the request is found legal,
+it first searches for the requested file in its local filesystem, if it s saved locally, the proxy creates an HTTP response and return the file,
+otherwise, it forwards the request to the appropriate web server, and sends the response back to the client.
+If the request is not legal, it sends an error response to the client without sending anything to the server.
+Supported only IPv4 connections.
 
 ==submitted files==
 1. proxyServer.c - simple HTTP Proxy - the main program
