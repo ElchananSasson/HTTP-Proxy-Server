@@ -1,5 +1,3 @@
-/// Ex3 - Proxy Server: Elchanan Sasson - 208272625
-
 #define _GNU_SOURCE
 
 #include <stdio.h>
