@@ -1,0 +1,20 @@
+==ID==
+208272625
+
+==Name & ID==
+Elchanan Sasson - 208272625
+
+==Exercise name==
+proxyServer
+
+==submitted files==
+1. proxyServer.c - simple HTTP Proxy - the main program
+2. threadpool.c - the code for the threadpool section(handle the threads)
+3. README - description.
+
+==remarks==
+- how to compile?
+gcc -Wall -Wextra -Wvla proxyServer.c threadpool.c -o proxy -lpthread
+
+- how to run?
+./proxy <port> <pool-size> <max-number-of-request> <filter>
