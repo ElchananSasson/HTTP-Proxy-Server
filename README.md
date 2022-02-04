@@ -1,2 +1,2 @@
 # HTTP-Proxy-Server
-proxy seerver managed by threads.
+proxy server managed by threads.
